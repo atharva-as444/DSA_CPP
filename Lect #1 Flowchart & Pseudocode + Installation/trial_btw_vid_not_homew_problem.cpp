@@ -1,0 +1,13 @@
+// THIS IS NOT A HOMEWORK PROBLEM THIS IS A  TRIAL TYPE CODE RUNS BETWEEN VIDEOS IN THIS FILE WE WERE GIVEN TO USE> 
+//SINGLE COUT STATEMENT & PRINT OUR NAME AND SURNAME IN TWO DIFFERENT LINES.
+// LETS CREATE A SYNTAX FOOR THIS TYPE OF FILE - THE SYNTAX IS THE FILE NAME EXCLUDING EXTENSION.
+//trial.btw.vid.not.homew.problem
+
+#include<iostream> 
+using namespace std;
+
+int main () {
+
+cout << "Atharva\n" << "Singh\n";
+    return 0;
+}
