@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+
+//Case is initialized array means when the input values have already been initialized so need need to input values just perform operations & if needed just change the value in intialized code
+
 int marks[5] = {2,3,4,5,6};  //function of array
 
 
