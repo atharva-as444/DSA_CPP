@@ -30,16 +30,5 @@ if(nums[i]< smallest){
 cout << "Smallest = " << smallest << " at index " << smallestIndex << endl;
 cout << "Largest = " << largest << " at index " << largestIndex << endl;
 
-/*cout<<"smallest = "<<smallest<<endl;
-cout<<"largest = "<<largest<<endl; */
-
-
-
-
-
-
-
-
-
 return 0;
 }
