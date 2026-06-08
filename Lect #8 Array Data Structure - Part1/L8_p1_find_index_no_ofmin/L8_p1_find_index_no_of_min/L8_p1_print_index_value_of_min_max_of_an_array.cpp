@@ -11,26 +11,29 @@ int size = 5;
 int smallest = INT_MAX;
 int largest =  INT_MIN;
 
+int smallestIndex = -1;
+int largestIndex = -1;
 
 for(int i = 0; i<size; i++){ //      mix/max
-smallest = min(nums[i], smallest);
-largest = max(nums[i], largest);
-
-if (nums[i] == smallest ) {
-    cout<<i<<endl<<endl;
-}
-if(smallest == min(nums[i],smallest)){
-cout<<nums[i]<<endl;
+if(nums[i]< smallest){
+            smallest = nums[i];
+            smallestIndex = i; // index store
 }
 
-if(largest == (nums[i], largest)) {
-cout<<nums[i]<<endl;
-} 
-
-cout<<"smallest = "<<smallest<<endl;
-cout<<"largest = "<<largest<<endl;
-
+ if (nums[i] > largest) {
+            largest = nums[i];
+            largestIndex = i;   // index store
+            
 }
+}
+
+cout << "Smallest = " << smallest << " at index " << smallestIndex << endl;
+cout << "Largest = " << largest << " at index " << largestIndex << endl;
+
+/*cout<<"smallest = "<<smallest<<endl;
+cout<<"largest = "<<largest<<endl; */
+
+
 
 
 
